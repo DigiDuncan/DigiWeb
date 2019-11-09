@@ -2,7 +2,7 @@
     border-radius: 2px;
     width: auto;
     height: auto;
-    background-image: url("assets/images/DDsimple.svg");
+    background-image: url("../assets/images/DDsimple.svg");
 }
 
 .nav-item:hover {
