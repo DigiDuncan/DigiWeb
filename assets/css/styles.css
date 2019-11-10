@@ -19,12 +19,13 @@ body {
 .nav-item:hover {
     transform: translateY(-3px);
     transition-timing-function: cubic-bezier(.785, .135, .15, .86);
-    transition: 250ms
+    transition: 250ms;
 }
 
 .nav-item {
     transition-timing-function: cubic-bezier(.785, .135, .15, .86);
-    transition: 250ms
+    transition: 250ms;
+    text-align: center;
 }
 
 .nav-item:hover .active:hover {
@@ -41,11 +42,11 @@ body {
 
 .card-body {
     background-color: #000!important;
-    color: #fff!important
+    color: #fff !important;
 }
 
 .card .card-body .card-text {
-    color: #fff!important
+    color: #fff !important;
 }
 
 body {
