@@ -88,7 +88,7 @@ body {
 }
 
 .navbar a {
-    color: #fff!important
+    color: #fff !important;
 }
 
 .hamburger-inner,
@@ -113,7 +113,7 @@ body {
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
   .socials {
     text-align: center;
   }
