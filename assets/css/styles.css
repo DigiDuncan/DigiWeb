@@ -26,6 +26,10 @@ body {
     text-align: right;
 }
 
+.hamburger {
+  color: white !important;
+}
+
 .social-icon {
   padding-left: 2px;
   padding-right: 2px;
