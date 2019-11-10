@@ -18,20 +18,17 @@ body {
 }
 
 h1.welcome {
-    font-size: 400%;
+  font-size: 400%;
 }
 
-div.socials {
-    position: absolute;
-    right: 5%;
+.socials {
+    width: 100%;
+    text-align: right;
 }
 
-.socialicon {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    color: white;
-    margin: .25em;
+.social-icon {
+  height: 24px;
+  width: 24px;
 }
 
 .navbar-brand {
