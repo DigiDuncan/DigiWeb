@@ -82,6 +82,11 @@ body {
     background: #191919!important
 }
 
+.mixer-icon {
+  width: 24px;
+  height: 24px;
+}
+
 .navbar a {
     color: #fff!important
 }
@@ -100,4 +105,16 @@ body {
 .hamburger-box {
     display: flex!important;
     justify-content: center!important
+}
+
+@media (max-width: 576px) {
+  .socials {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .socials {
+    text-align: center;
+  }
 }
