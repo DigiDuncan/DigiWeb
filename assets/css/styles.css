@@ -27,6 +27,8 @@ h1.welcome {
 }
 
 .social-icon {
+  padding-left: 2px;
+  padding-right: 2px;
   height: 24px !important;
   width: 24px !important;
 }
