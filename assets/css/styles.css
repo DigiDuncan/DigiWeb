@@ -6,6 +6,11 @@
     pointer-events: none !important;
 }
 
+.dd-landing {
+  text-align: center;
+  width: 100%;
+}
+
 .nav-item:hover {
     transform: translateY(-3px);
     transition-timing-function: cubic-bezier(.785, .135, .15, .86);
@@ -19,6 +24,10 @@
 
 .nav-item:hover .active:hover {
     transform: translateY(0)
+}
+
+.hamburger--slider .hamburger-inner::before {
+  border-radius: 3px !important;
 }
 
 .nav-link {
