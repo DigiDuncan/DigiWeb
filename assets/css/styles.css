@@ -16,15 +16,17 @@ body {
   font-family: 'Roobert' !important;
 }
 
-.nav-item:hover {
-    transform: translateY(-3px);
-    transition-timing-function: cubic-bezier(.785, .135, .15, .86);
-    transition: 250ms;
+.nav-link:hover {
+    transform: translateY(-5px);
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    transition: 300ms;
 }
 
-.nav-item {
-    transition-timing-function: cubic-bezier(.785, .135, .15, .86);
-    transition: 250ms;
+.nav-link {
+    transition-timing-function: cubic-bezier(1,0,0,1);
+    transition: 300ms;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
