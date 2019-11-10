@@ -12,6 +12,13 @@
   color: white !important;
 }
 
+.dd-landing-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
   font-family: 'Roobert' !important;
 }
