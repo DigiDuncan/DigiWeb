@@ -1,6 +1,6 @@
 .dd-landing {
   text-align: right;
-  width: 85%;
+  width: 100%;
   color: white !important;
   position: relative;
   top: -5em;
@@ -17,7 +17,7 @@ body {
   font-family: 'Roobert' !important;
 }
 
-h1.welcome {
+.welcome {
   font-size: 400%;
 }
 
@@ -29,8 +29,6 @@ h1.welcome {
 .social-icon {
   padding-left: 2px;
   padding-right: 2px;
-  height: 24px !important;
-  width: 24px !important;
 }
 
 .navbar-brand {
