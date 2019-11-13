@@ -219,10 +219,6 @@ input:checked + .slider:before {
   .socials-container {
     text-align: center;
   }
-  .dd-landing-container {
-    height: 200%;
-    width: 100%;
-  }
 }
 
 @media (max-width : 991px) {
