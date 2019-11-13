@@ -9,7 +9,7 @@ function CopyPaste() {
   new Noty({
       theme: 'sunset',
       text: 'Copied to clipboard',
-      progressBar: false,
+      progressBar: true,
       layout: 'bottomRight',
       timeout: '7000',
       animation: {
