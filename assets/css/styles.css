@@ -30,10 +30,9 @@ body {
   color: #7E8084 !important;
 }
 
-.socials {
-    width: 100%;
-    text-align: right;
-    overflow: hidden;
+.socials-container {
+  float: right;
+  padding-top: 5px;
 }
 
 .hamburger {
@@ -88,8 +87,8 @@ body {
 }
 
 .mixer-icon {
-  width: 26px;
-  height: 26px;
+  width: 25px;
+  height: 25px;
 }
 
 .navbar a {
@@ -113,13 +112,21 @@ body {
 }
 
 @media (max-width: 576px) {
-  .socials {
-    text-align: center;
+  .socials-container {
+    float: none;
   }
 }
 
 @media (max-width: 768px) {
-  .socials {
+  .socials-container {
     text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width : 991px) {
+  .socials-container {
+    text-align: center;
+    width: 100%;
   }
 }
