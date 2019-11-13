@@ -3,14 +3,22 @@
   width: 100%;
   color: white;
   position: relative;
-  top: -5em;
+}
+
+.dd-mas {
+  width: 25%;
+  float: left;
+  word-wrap: break-word;
+  pointer-events: none;
 }
 
 .dd-landing-container {
     display: flex;
-    margin: 200px;
     align-items: center;
     justify-content: center;
+    margin-top: 3em;
+    padding: 150px;
+    background-color: #202225;
 }
 
 .noty_theme__sunset.noty_type__alert, .noty_theme__sunset.noty_type__notification {
@@ -114,6 +122,21 @@ body {
 @media (max-width: 576px) {
   .socials-container {
     float: none;
+  }
+  .dd-landing-container {
+    padding: 15px;
+  }
+  .dd-mas {
+    width: 100%;
+    float: left;
+    pointer-events: none;
+  }
+  .dd-mas-container {
+  width: 100%;
+  margin-top: 30px;
+  }
+  .welcome, .paragraph {
+    text-align: center;
   }
 }
 
