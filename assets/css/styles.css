@@ -1,16 +1,16 @@
 :root {
-    --primary-color: #302AE6;
+    --primary-color: #008aad;
     --secondary-color: #536390;
-    --font-color: white;
-    --bg-color: #00000c;
+    --font-color: #fff;
+    --bg-color: #000e24;
     --heading-color: black;
 }
 
 [data-theme="dark"] {
     --primary-color: #0E7289;
     --secondary-color: #818cab;
-    --font-color: black;
-    --bg-color: #e3e3e3;
+    --font-color: #000;
+    --bg-color: #c4c4c4;
     --heading-color: #818cab;
 }
 
@@ -22,6 +22,11 @@ body {
 
 .dd-head {
   color: var(--primary-color) !important;
+}
+
+nav {
+  box-shadow: 0px 0px 10px black !important;
+  z-index: 100 !important;
 }
 
 .theme-switch-wrapper {
@@ -61,6 +66,10 @@ body {
   position: absolute;
   transition: .1s;
   width: 26px;
+}
+
+.paragraph {
+  font-family: 'Roboto', sans-serif;
 }
 
 input:checked + .slider {
