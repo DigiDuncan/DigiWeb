@@ -132,8 +132,8 @@ input:checked + .slider:before {
 }
 
 .social-icon {
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .navbar-brand {
