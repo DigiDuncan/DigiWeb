@@ -1,11 +1,13 @@
+/* Dark theme. */
 :root {
-    --primary-color: #0066ff;
-    --secondary-color: #536390;
+    --primary-color: #0E7289;
+    --secondary-color: #4a6a6c;
     --font-color: #fff;
-    --bg-color: #000e24;
+    --bg-color: #002e2e;
     --heading-color: black;
 }
 
+/* Light theme.*/
 [data-theme="dark"] {
     --primary-color: #0E7289;
     --secondary-color: #818cab;
