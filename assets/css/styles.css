@@ -5,6 +5,7 @@
     --os-color: #fff;
     --navbar-color: black;
     --filter-brightness: brightness(100%);
+    --transition-duration: 200ms;
 }
 
 [data-theme="light"] {
@@ -17,6 +18,7 @@
 
 body {
   font-family: 'Roobert' !important;
+  transition-duration: var(--transition-duration) !important;
   color: var(--font-color) !important;
   background-color: var(--bg-color) !important;
 }
@@ -142,6 +144,7 @@ input:checked + .slider:before {
     margin-left: 4px;
     margin-right: 4px;
     color: var(--font-color) !important;
+    transition-duration: var(--transition-duration) !important;
 }
 
 .navbar-brand {
@@ -189,6 +192,7 @@ input:checked + .slider:before {
 .mixer-icon {
   width: 26px;
   height: 26px;
+  transition: var(--transition-duration) !important;
   filter: var(--filter-brightness) !important;
 }
 
