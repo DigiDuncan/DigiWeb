@@ -1,12 +1,18 @@
 
-:root {
+[data-theme="dark"], :root {
     --font-color: #fff;
     --bg-color: #001010;
+    --os-color: #fff;
+    --navbar-color: black;
+    --filter-brightness: brightness(100%);
 }
 
 [data-theme="light"] {
     --font-color: #000;
     --bg-color: #c4c4c4;
+    --os-color: black;
+    --navbar-color: white;
+    --filter-brightness: brightness(0%);
 }
 
 body {
@@ -15,13 +21,19 @@ body {
   background-color: var(--bg-color) !important;
 }
 
+.os-theme-light>.os-scrollbar>.os-scrollbar-track>.os-scrollbar-handle {
+  background: var(--os-color) !important;
+}
+
 .dd-head {
   color: var(--primary-color) !important;
 }
 
-nav {
+.navbar {
   box-shadow: 0px 0px 10px black !important;
   z-index: 100 !important;
+  color: var(--font-color) !important;
+  background: var(--navbar-color) !important;
 }
 
 .theme-switch-wrapper {
@@ -126,13 +138,15 @@ input:checked + .slider:before {
   font-size: 1.69em;
 }
 
-.social-icon {
+.navbar a {
     margin-left: 4px;
     margin-right: 4px;
+    color: var(--font-color) !important;
 }
 
 .navbar-brand {
     width: 50px;
+    filter: var(--filter-brightness) !important;
     height: 50px;
     padding-top: 0 !important;
     padding-left: 0 !important;
@@ -162,6 +176,8 @@ input:checked + .slider:before {
   align-items: center;
 }
 
+
+
 .hamburger--slider .hamburger-inner::before {
   border-radius: 3px !important;
 }
@@ -170,22 +186,16 @@ input:checked + .slider:before {
     border-radius: 2px
 }
 
-.navbar {
-    background: #191919!important
-}
-
 .mixer-icon {
   width: 26px;
   height: 26px;
+  filter: var(--filter-brightness) !important;
 }
 
 .kofi-icon {
   width: 36px;
   height: 36px;
-}
-
-.navbar a {
-    color: #fff !important;
+  filter: var(--filter-brightness) !important;
 }
 
 .hamburger-inner,
