@@ -1,18 +1,12 @@
 
 :root {
-    --primary-color: #0E7289;
-    --secondary-color: #05272e;
     --font-color: #fff;
     --bg-color: #001010;
-    --heading-color: black;
 }
 
 [data-theme="light"] {
-    --primary-color: #0E7289;
-    --secondary-color: #818cab;
     --font-color: #000;
     --bg-color: #c4c4c4;
-    --heading-color: #818cab;
 }
 
 body {
@@ -75,7 +69,7 @@ nav {
 }
 
 input:checked + .slider {
-  background-color: var(--primary-color);
+  background-color: black;
 }
 
 input:checked + .slider:before {
