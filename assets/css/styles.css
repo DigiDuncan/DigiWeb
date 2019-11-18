@@ -1,9 +1,9 @@
 /* Dark theme. */
 :root {
     --primary-color: #0E7289;
-    --secondary-color: #002e2e;
+    --secondary-color: #05272e;
     --font-color: #fff;
-    --bg-color: #002e2e;
+    --bg-color: #001010;
     --heading-color: black;
 }
 
