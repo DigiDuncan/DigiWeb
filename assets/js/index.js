@@ -7,17 +7,6 @@ var $hamburger = $(".hamburger");
 $hamburger.on("click", function(e) {
     $hamburger.toggleClass("is-active")
 });
-const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-function switchTheme(e) {
-    e.target.checked ? document.documentElement.setAttribute("data-theme", "dark") : document.documentElement.setAttribute("data-theme", "light")
-}
-
-function switchTheme(e) {
-    e.target.checked ? (document.documentElement.setAttribute("data-theme", "dark"), localStorage.setItem("theme", "dark")) : (document.documentElement.setAttribute("data-theme", "light"), localStorage.setItem("theme", "light"))
-}
-toggleSwitch.addEventListener("change", switchTheme, !1);
-const currentTheme = localStorage.getItem("theme") ? localStorage.getItem("theme") : null;
 
 function CopyPaste() {
     new ClipboardJS("#CTC"), tippy("#CTC", {
@@ -122,4 +111,3 @@ function CopyPaste() {
         }
     }).show()
 }
-currentTheme && (document.documentElement.setAttribute("data-theme", currentTheme), "dark" === currentTheme && (toggleSwitch.checked = !0));
