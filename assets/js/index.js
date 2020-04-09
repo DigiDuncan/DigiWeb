@@ -4,8 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // OverlayScrollbars
     OverlayScrollbars(document.querySelectorAll("body"), {
         className: "os-theme-light"
-    })
+    });
 });
+
 // Hamburgers
 var $hamburger = $(".hamburger");
 $hamburger.on("click", function(e) {
