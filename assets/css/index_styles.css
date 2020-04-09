@@ -80,10 +80,6 @@ body {
   width: 26px;
 }
 
-.paragraph {
-  font-family: 'Roboto', sans-serif;
-}
-
 input:checked + .slider {
   background-color: var(--primary-color);
 }
