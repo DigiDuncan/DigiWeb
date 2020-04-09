@@ -1,5 +1,6 @@
 // Animate on scroll
-AOS.init(), document.addEventListener("DOMContentLoaded", function() {
+AOS.init();
+document.addEventListener("DOMContentLoaded", function() {
     // OverlayScrollbars
     OverlayScrollbars(document.querySelectorAll("body"), {
         className: "os-theme-light"
