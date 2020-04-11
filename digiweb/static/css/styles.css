@@ -1,0 +1,105 @@
+/*Font Faces*/
+@font-face {
+    font-family: 'Roobert-SemiBoldItalic';
+    src: url('../fonts/Roobert-SemiBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-SemiBold';
+    src: url('../fonts/Roobert-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-RegularItalic';
+    src: url('../fonts/Roobert-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-Regular';
+    src: url('../fonts/Roobert-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-MediumItalic';
+    src: url('../fonts/Roobert-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-Medium';
+    src: url('../fonts/Roobert-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-LightItalic';
+    src: url('../fonts/Roobert-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-Light';
+    src: url('../fonts/Roobert-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-HeavyItalic';
+    src: url('../fonts/Roobert-HeavyItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-Heavy';
+    src: url('../fonts/Roobert-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-BoldItalic';
+    src: url('../fonts/Roobert-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roobert-Bold';
+    src: url('../fonts/Roobert-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Styles*/
+body.undercon {
+	background-color: #202020;
+}
+img.undercon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+h1.undercon {
+	font-family: Roobert-SemiBold, sans-serif;
+    text-align: center;
+	font-size: 300%;
+	color: white;
+	line-height: 0.75;
+}
+h2.undercon {
+	font-family: Roobert-MediumItalic, sans-serif;
+    text-align: center;
+	font-size: 200%;
+	color: white;
+	line-height: 0.75;
+}
+p.undercon {
+	font-family: Roobert-Medium, sans-serif;
+    text-align: center;
+	font-size: 150%;
+	color: white;
+	line-height: 0.75;
+}
