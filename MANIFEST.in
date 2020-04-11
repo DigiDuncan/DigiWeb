@@ -1,2 +1,2 @@
-include digiweb/templates/*
-include digiweb/static/*
+recursive-include digiweb/templates *
+recursive-include digiweb/static *
