@@ -146,9 +146,9 @@ input:checked + .slider:before {
 }
 
 .navbar-brand {
-  width: 50px;
+  width: 45px;
   filter: var(--filter-brightness) !important;
-  height: 50px;
+  height: 45px;
   padding-top: 0 !important;
   padding-left: 0 !important;
   pointer-events: none !important;
