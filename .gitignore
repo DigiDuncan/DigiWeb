@@ -2,6 +2,9 @@
 *.pyc
 .pytest_cache
 
+# Compiled CSS
+digiweb/static/css
+
 # Visual Studio
 .vs
 *.pyproj
