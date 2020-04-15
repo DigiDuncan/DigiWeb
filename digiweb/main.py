@@ -7,7 +7,7 @@ from flask_assets import Environment, Bundle
 app = Flask(__name__)
 assets = Environment(app)
 
-css = Bundle('sass/index_styles.sass',
+css = Bundle('scss/index_styles.scss',
              filters='libsass', output='css/packed.css')
 assets.register('css_all', css)
 
