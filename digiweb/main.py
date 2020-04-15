@@ -2,8 +2,14 @@ import os
 
 from flask import Flask
 from flask import render_template, send_from_directory
+from flask_assets import Environment, Bundle
 
 app = Flask(__name__)
+assets = Environment(app)
+
+css = Bundle('sass/index_styles.sass',
+             filters='libsass', output='css/packed.css')
+assets.register('css_all', css)
 
 
 @app.route('/')

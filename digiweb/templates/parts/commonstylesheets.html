@@ -1,5 +1,7 @@
 <!-- Local styles -->
-<link rel="stylesheet" href="static/css/index_styles.css">
+{% assets "css_all" %}
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
+{% endassets %}
 
 <!-- Font Awesome - https://github.com/FortAwesome/Font-Awesome/tree/5.8.2 -->
 <script src="https://kit.fontawesome.com/3976b8e6c9.js" crossorigin="anonymous"></script>
