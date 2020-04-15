@@ -14,3 +14,4 @@ digiweb/static/css
 # Visual Studio Code
 .vscode
 *.code-workspace
+/digiweb/static/.webassets-cache/
